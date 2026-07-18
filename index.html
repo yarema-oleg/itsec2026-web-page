@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="uk"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="uk"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="4gIpOvC4Y94qNtn_pWFVefZa24mk499opy9Gc1hqiGo" />
     <title>ITSEC-2026 Конференція</title>
     <script src="saved_resource"></script>
     <link href="css2" rel="stylesheet">
@@ -63,7 +64,7 @@
                     <nav class="hidden  md:flex xl:gap-4 2xl:gap-10  md:gap-2 text-white  xl:text-base lg:text-sm md:text-xs  xl:justify-end">
                         <a href="#control" class="text-white">Контрольні дати</a>
                         <a href="#event-themes" class="text-white">Теми конференції</a>
-                        <a href="#publication-terms" class="text-white">Умови участі</a>
+                        <a href="#conference-abstracts" class="text-white">Матеріали конференції</a>
                         <a href="#program" class="text-white">Програма</a>
                         <a href="#conf_org_team" class="text-white">Оргкомітет</a>
                     </nav>
@@ -71,12 +72,10 @@
                     <nav id="menu" class="bg-black bg-opacity-100 text-white w-1/2 fixed top-2 right-0 flex flex-col gap-6 py-5 pl-4 rounded-l-3xl transform translate-x-full transition-transform duration-300 ease-in-out xl:hidden">
                         <a href="#control" class="text-white" onclick="toggleBurger()">Контрольні дати</a>
                         <a href="#event-themes" class="text-white" onclick="toggleBurger()">Теми конференції</a>
-                        <a href="#publication-terms" class="text-white" onclick="toggleBurger()">Умови участі</a>
+                        <a href="#conference-abstracts" class="text-white" onclick="toggleBurger()">Матеріали конференції</a>
                         <a href="#program" class="text-white" onclick="toggleBurger()">Програма</a>
                         <a href="#conf_org_team" class="text-white" onclick="toggleBurger()">Оргкомітет</a>
                     </nav>
-
-
                 </div>
             </header>
             <main class="pt-14 xl:pt-32  ">
@@ -90,9 +89,9 @@
                             <h2 class="xl:text-4xl">науково-технічна конференція</h2>
                             <h2 class="xl:text-4xl">"Безпека інформаційних технологій"</h2>
                             <h2 class="xl:text-4xl">27-29 травня 2026 р.</h2>
-                            <a href="#control">
-                                <button class="rounded-full text-black bg-[#50C2FF]  px-3 xl:px-9  py-2 xl:py-4 mt-10 xl:text-xl text-xs cursor-pointer">
-                                    Подати заявку на участь
+                            <a>
+                                <button class="bg-gray-600 border border-gray-500 rounded-full text-black bg-[#50C2FF]  px-3 xl:px-9  py-2 xl:py-4 mt-10 xl:text-xl text-xs cursor-pointer cursor-not-allowed select-none pointer-events-none">
+                                    Прийом заявок завершено
                                 </button>
                             </a>
                         </div>
@@ -130,10 +129,12 @@
                         <div>
                             <p class="xl:text-4xl text-base">Онлайн реєстрація </p>
                             <p class="xl:text-4xl text-base">та подання матеріалів </p>
-                            <p class="text-[#50C2FF] text-sm xl:text-2xl">до 10 травня 2026 р. </p>
+                            <p class="text-[#50C2FF] text-sm xl:text-2xl line-through">до 10 травня 2026 р. </p>
+                            <p class="text-[#50C2FF] text-sm xl:text-2xl">до 17 травня 2026 р. </p>
                         </div>
-                        <a href="#" target="_blank"><button class="rounded-full text-black bg-[#50C2FF] xl:px-9 xl:py-4 py-2 px-2 xl:w-96  text-xs xl:text-2xl cursor-pointer">Подати
-                                заявку</button></a>
+                        <button class="rounded-full text-gray-300 bg-gray-600 border border-gray-500 xl:px-9 xl:py-4 py-2 px-4 xl:w-96 text-xs xl:text-xl font-medium opacity-60 cursor-not-allowed select-none pointer-events-none">
+                            Прийом заявок завершено
+                        </button>
                     </div>
                     <hr class=" xl:mr-0 border-t border-[#50C2FF]">
 
@@ -141,7 +142,7 @@
                         <div>
                             <p class="xl:text-4xl text-base">Отримання листа підтвердження</p>
                         </div>
-                        <p class="text-[#50C2FF] text-sm xl:text-3xl xl:w-96 text-center">до 17 травня 2026 р. </p>
+                        <p class="text-[#50C2FF] text-sm xl:text-3xl xl:w-96 text-center">до 21 травня 2026 р. </p>
                     </div>
                     <hr class=" xl:mr-0 border-t border-[#50C2FF]">
                     <div class="flex justify-between gap-4 xl:gap-0">
@@ -233,8 +234,7 @@
             </div>
         </div>
     </section>
-    <section id="publication-terms" class="pb-0 2xl:pb-96 relative overflow-hidden  min-h-[100px] ">
-
+    <section id="publication-terms" class="pb-0 2xl:pb-36 relative overflow-hidden  min-h-[100px] ">
         <div class="absolute inset-x-0 top-0 ">
             <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -252,40 +252,73 @@
         <div class="container mx-auto relative  xl:py-36  py-14   ">
             <div class="flex flex-col xl:gap-4 xl:pl-80 pl-10  pt-4 sm:pt-14 lg:pt-32 xl:pt-36 text-center xl:text-start ">
                 <p class="xl:text-5xl md:text-4xl text-2xl font-medium">Умови участі та публікування</p>
-                <p class="xl:text-5xl md:text-4xl text-2xl   font-medium xl:text-center">у збірнику статей</p>
+                <p class="xl:text-5xl md:text-4xl text-2xl   font-medium xl:text-center">у збірнику тез</p>
             </div>
             <div class="flex xl:gap-16 gap-4 mt-12 xl:mt-0 lg:flex-row flex-col justify-center items-center">
                 <div class="flex flex-col xl:gap-6 gap-4 max-w-[460px] w-ful border rounded-2xl bg-white rotate-3 p-5">
                     <h2 class="xl:text-5xl text-xl xl:py-7 xl:pl-12 font-medium">Крок 1</h2>
                     <div class="grow rounded-xl bg-[#50C2FF] bg-opacity-50 p-6">
                         <p class="xl:text-4xl text-base font-medium">Реєстрація на конференцію</p>
-                        <p class="xl:text-2xl  text-sm font-thin mt-5">до 10 травня 2026 р.</p>
+                        <a href="https://drive.google.com/file/d/17SqIB0W-9ml9AYtJWvIoghXpVMhJK8xX/view?usp=sharing" target="_blank">
+                            <p class="xl:text-xl  text-sm  decoration-1 underline underline-offset-4 italic font-thin mt-2.5">
+                                Інформаційне повідомлення</p>
+                        </a>
+                        <p class="xl:text-2xl  text-sm font-thin mt-5 line-through">до 10 травня 2026 р.</p>
+                        <p class="xl:text-2xl  text-sm font-thin mt-5">до 17 травня 2026 р.</p>
                     </div>
                 </div>
                 <div class="flex flex-col gap-6  mt-12 xl:mt-56 max-w-[460px] w-ful border rounded-2xl bg-white -rotate-6 p-5">
                     <h2 class="xl:text-5xl text-xl xl:py-7 xl:pl-12 font-medium">Крок 2</h2>
                     <div class="grow rounded-xl bg-[#50C2FF] bg-opacity-50 p-6">
                         <p class="xl:text-4xl text-base  font-medium">Подання матеріалів</p>
-                        <a href="https://docs.google.com/document/d/1Rk1wFFGuZmZpcgEeKnNsnSexxP__lztT/edit" target="_blank">
+                        <a href="https://docs.google.com/document/d/1_bE_RNuHOJofBAMexPyoaqYaYR2wzOGX/edit?usp=sharing&ouid=103750485304784036774&rtpof=true&sd=true" target="_blank">
                             <p class="xl:text-xl  text-sm  decoration-1 underline underline-offset-4 italic font-thin mt-2.5">
                                 Шаблон
-                                оформлення</p>
+                                оформлення (укр.)</p>
                         </a>
-                        <a href="https://docs.google.com/document/d/119Z1bq8uJ8aY0MwFGEqbmy_DIeOXSdpO/edit" target="_blank">
+                        <a href="https://docs.google.com/document/d/10FrTY-vDjsMYCeyTj7yT0g5dVnTwnBws/edit?usp=sharing&ouid=103750485304784036774&rtpof=true&sd=true" target="_blank">
+                            <p class="xl:text-xl  text-sm  decoration-1 underline underline-offset-4 italic font-thin">
+                                Шаблон
+                                оформлення (англ.)</p>
+                        </a>
+                        <a href="https://docs.google.com/document/d/1zV4qfwCGXHWsKkZ0Y0kKfyjjMRiF59co/edit?usp=sharing&ouid=103750485304784036774&rtpof=true&sd=true" target="_blank">
                             <p class="xl:text-xl  text-sm  decoration-1 underline underline-offset-4 italic font-thin">
                                 Правила&nbsp;подання&nbsp;матеріалів&nbsp;тез
                             </p>
                         </a>
-                        <p class="xl:text-2xl  text-sm   font-thin mt-5">до 10 травня 2026 р.</p>
+                        <p class="xl:text-2xl  text-sm   font-thin mt-5 line-through">до 10 травня 2026 р.</p>
+                        <p class="xl:text-2xl  text-sm   font-thin mt-5 ">до 17 травня 2026 р.</p>
                     </div>
                 </div>
                 <div class="flex flex-col gap-6 mt-12 xl:mt-0 max-w-[460px] w-ful border rounded-2xl bg-white rotate-3 p-5">
                     <h2 class="xl:text-5xl text-xl xl:py-7 xl:pl-12 font-medium">Крок 3</h2>
                     <div class="grow rounded-xl bg-[#50C2FF] bg-opacity-50 xl:p-6 p-4">
                         <p class="xl:text-4xl text-base font-medium">Отримання листа підтвердження</p>
-                        <p class="xl:text-2xl  text-sm  font-thin mt-5">до 17 травня 2026 р. </p>
+                        <p class="xl:text-2xl  text-sm  font-thin mt-5 line-through">до 17 травня 2026 р. </p>
+                        <p class="xl:text-2xl  text-sm  font-thin mt-5">до 21 травня 2026 р. </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="conference-posters" class="xl:mt-40 mt-20 pt-8 bg-black">
+        <div class="container mx-auto">
+            <div class="text-white px-5 xl:px-60 ">
+                <p class="xl:text-5xl md:text-4xl text-2xl text-center xl:text-start font-medium">Матеріали онлайн
+                    постер-сесії</p>
+            </div>
+            <div class="xl:mt-20 mt-10 text-center">
+                <a href="https://drive.google.com/drive/folders/10OXfYVl6ZgGFGqprXrS-DMZifk-ubVEc?usp=sharing" target="_blank">
+                    <button class="rounded-full text-black bg-[#50C2FF] xl:px-9 xl:py-4 py-2 px-2 xl:w-96  text-xs xl:text-2xl cursor-pointer hover:bg-[#3eb3f0] hover:scale-105 hover:shadow-[0_0_25px_rgba(80,194,255,0.5)]">
+                        <div class="flex gap-2 items-center">
+                            <img src="poster-icon.png" alt="Save" class="xl:size-10 md:size-8 size-6">
+                            <span>Переглянути постери</span>
+                        </div>
+                    </button></a>
+            </div>
+            <div class="xl:mt-5 mt-3 text-center">
+                <span class="text-[#50C2FF] xl:text-base text-xs font-light">* запитання та відгуки можна залишати в коментарях до файлів</span>
             </div>
         </div>
     </section>
@@ -294,105 +327,232 @@
     radial-gradient(ellipse at -100% 60%, rgba(80, 185, 255, 1) 20%, transparent 60%)">
     <div class="container mx-auto">
         <div class="text-white px-5 xl:px-60 ">
-            <p class="xl:text-5xl md:text-4xl text-2xl text-center xl:text-start font-medium">Програма конференції</p>
+            <p class="xl:text-5xl md:text-4xl text-2xl text-center xl:text-start font-medium">Програма заходів</p>
             <div class="flex flex-col gap-8  pt-20">
-                <p class="xl:text-4xl text-base text-[#50C2FF] ">27 травня</p>
+                <p class="xl:text-4xl text-base text-[#50C2FF] ">27 травня 2026 р. (1-й день)</p>
                 <div class="flex flex-col  gap-4">
                     <div class="flex xl:flex-row flex-col w-full gap-2  ">
-                        <span class="text-white   xl:text-2xl text-xl   text-nowrap "> 09:00 – 13:00
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap "> 09:00 – 12:30&nbsp;
                         </span>
                         <span class="text-[#50C2FF] xl:text-xl text-base  font-light  ">Приїзд і поселення учасників конференції</span>
                     </div>
                     
                     <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">13:00 – 14:00
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">12:30 – 15:00&nbsp;
                         </span>
                         <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Реєстрація учасників конференції</span>
                     </div>
                     <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl    text-nowrap ">14:00 – 15.30
+                        <span class="text-white   xl:text-2xl text-xl    text-nowrap ">15:00 – 16:30&nbsp;
                         </span>
-                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Пленарне засідання
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Відкриття конференції. Підписання меморандуму про співпрацю між ТНТУ та  ДУІКТ
                         </span>
                     </div>
                     <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">15:30 – 16:00
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">17:30 – 20:00&nbsp;
+                        </span>
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Екскурсія етнопарком <a href="https://agroland.te.ua/" class="underline underline-offset-4" target="_blank">«Агроленд»</a> та вечеря в ресторані «Велика Миска»</span>
+                    </div>
+                </div>
+                <hr class=" xl:mr-0 border-t border-white">
+
+                <p class="xl:text-4xl text-base text-[#50C2FF] ">28 травня 2026 р. (2-й день)</p>
+                <div class="flex flex-col  gap-4">
+                    <div class="flex xl:flex-row flex-col w-full  xl:gap-2">
+                        <span class="text-white   xl:text-2xl text-xl  text-nowrap">10:00 – 12:00*
+                        </span>
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Пленарне засідання</span>
+                    </div>
+                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">12:00 – 12:30*
                         </span>
                         <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Кава-брейк</span>
                     </div>
                     <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl  text-nowrap  ">16:00 – 18:30
+                        <span class="text-white   xl:text-2xl text-xl    text-nowrap ">12:30 – 14:00*
                         </span>
-                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Перше секційне засідання</span>
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Секційні засідання. Частина 1
+                        </span>
                     </div>
+                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">14:00 – 15:00&nbsp;
+                        </span>
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Обід</span>
+                    </div>
+                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">15:00 – 17:00*
+                        </span>
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Секційні засідання. Частина 2</span>
+                    </div>
+                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">17:00 – 18:30&nbsp;
+                        </span>
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Екскурсія Тернополем «Стежками Івана Пулюя»</span>
+                    </div>
+                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">18:30 – 20:00&nbsp;
+                        </span>
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Вечеря</span>
+                    </div>
+                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
+                    <span class="text-white   xl:text-m text-s   text-nowrap">* Час вказаний орієнтовно
+                    </span>
+                </div>
                 </div>
                 <hr class=" xl:mr-0 border-t border-white">
 
-                <p class="xl:text-4xl text-base text-[#50C2FF] ">28 травня</p>
+                <p class="xl:text-4xl text-base text-[#50C2FF] ">29 травня 2026 р. (3-й день)</p>
                 <div class="flex flex-col  gap-4">
-                    <div class="flex xl:flex-row flex-col w-full  xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl  text-nowrap">09:00 – 11:00
+                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">09:00 – 10:00&nbsp;
                         </span>
-                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Робота по секціях</span>
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Робота зі стендовими доповідями</span>
                     </div>
                     <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">11:00 – 11:30
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">10:00 – 10:30&nbsp;
                         </span>
-                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Кофе-брейк</span>
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Підведення підсумків, закриття конференції</span>
                     </div>
                     <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl    text-nowrap ">11:30 – 12:30
+                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">10:30 – 15:00&nbsp;
                         </span>
-                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Робота зі стендовими доповідями
-                        </span>
-                    </div>
-                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">12:30 – 13:30
-                        </span>
-                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Підведення підсумків, оголошення рішення, закриття конференції</span>
-                    </div>
-                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">14:30 – 18:00
-                        </span>
-                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Екскурсія в готельний комплекс «Орися»</span>
+                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Екскурсія в <a href="https://zamky.te.ua/zamki/zbarazkij-zamok" class="underline underline-offset-4" target="_blank">Збаразький замок</a>  та/або <a href="https://zamky.te.ua/zamki/vishniveckij-zamok" class="underline underline-offset-4" target="_blank">Вишнівецький замок</a></span>
                     </div>
                 </div>
                 <hr class=" xl:mr-0 border-t border-white">
-
-                <p class="xl:text-4xl text-base text-[#50C2FF] ">29 травня</p>
-                <div class="flex flex-col  gap-4">
-                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">10:00 – 13:30
-                        </span>
-                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Екскурсія в Зарваницю, повернення в Тернопіль</span>
-                    </div>
-                    <div class="flex xl:flex-row flex-col w-full   xl:gap-2">
-                        <span class="text-white   xl:text-2xl text-xl   text-nowrap  ">13:30 – 18:00
-                        </span>
-                        <span class="text-[#50C2FF] xl:text-xl text-base  font-light ">Вільний час, від’їзд учасників</span>
-                    </div>
-                </div>
-                <hr class=" xl:mr-0 border-t border-white">
-                
             </div>
         </div>
-        <div class="xl:mt-20 mt-10 text-center">
-        <a href="#" target="_blank"><button class="rounded-full text-black bg-[#50C2FF] xl:px-9 xl:py-4 py-2 px-2 xl:w-96  text-xs xl:text-2xl cursor-pointer">Деталі програми конференції</button></a></div>
-</div></section>
-
-<section id="program" class="xl:mt-40 mt-20 pt-8 bg-black">
-<div class="container mx-auto">
-    <div class="text-white px-5 xl:px-60 ">
-        <p class="xl:text-5xl md:text-4xl text-2xl text-center xl:text-start font-medium">Матеріали ХV Міжнародної науково-технічної конференції</p>
-        
+        <div id="conference_program" class="container mx-auto xl:mt-15 mt-5 pt-8">
+    <div class="text-white px-5 xl:px-60">
+        <p class="xl:text-5xl md:text-4xl text-2xl text-center xl:text-start font-medium">Детальна програма роботи конференції</p>
     </div>
     <div class="xl:mt-20 mt-10 text-center">
-    <a href="#" target="_blank"><button class="rounded-full text-black bg-[#50C2FF] xl:px-9 xl:py-4 py-2 px-2 xl:w-96  text-xs xl:text-2xl cursor-pointer"><div class="flex gap-2 items-center">
-        <img src="cloud.png" alt="Save" class="xl:size-10 md:size-8 size-6">
-        <span>Збірник конференції</span>    
-        </div>
-        </button></a></div>
+        <a href="https://drive.google.com/file/d/1Xya6zFz36eh9rRW_WWuA0Gt1A1iWqugc/view?usp=sharing" 
+           target="_blank" 
+           class="inline-block rounded-full font-medium text-black bg-[#50C2FF] py-3 px-6 xl:px-9 xl:py-4 xl:w-96 text-sm xl:text-2xl cursor-pointer shadow-md transform transition-all duration-300 ease-in-out hover:bg-[#3eb3f0] hover:scale-105 hover:shadow-[0_0_25px_rgba(80,194,255,0.5)]">
+           Переглянути програму роботи конференції
+        </a>
+    </div>
+</div>
 </div></section>
+
+<section id="conference-abstracts" class="xl:mt-40 mt-20 pt-8 bg-black">
+    <div class="container mx-auto">
+        <div class="text-white px-5 xl:px-60">
+            <p class="xl:text-5xl md:text-4xl text-2xl text-center xl:text-start font-medium">
+                Матеріали ХV Міжнародної науково-технічної конференції
+            </p>
+        </div>
+        
+        <div class="xl:mt-20 mt-10 flex flex-col items-center gap-6 text-center">
+            <a href="https://drive.google.com/file/d/1Z_ufhNPv6XzsPqkaPoBoz9hk1lDFoFcP/view?usp=sharing" target="_blank" class="inline-block rounded-full font-medium text-black bg-[#50C2FF] py-3 px-6 xl:px-9 xl:py-4 xl:w-96 text-sm xl:text-2xl cursor-pointer shadow-md transform transition-all duration-300 ease-in-out hover:bg-[#3eb3f0] hover:scale-105 hover:shadow-[0_0_25px_rgba(80,194,255,0.5)]">
+                <div class="flex gap-2 items-center justify-center">
+                    <img src="cloud.png" alt="Save" class="xl:size-10 md:size-8 size-6">
+                    <span>Збірник конференції</span>    
+                </div>
+            </a>
+
+            <a href="javascript:void(0)" onclick="copyConferenceLink(this)" data-link="https://itsec.tntu.edu.ua/#conference-abstracts" class="inline-flex gap-2 items-center text-[#50C2FF] text-sm xl:text-xl font-medium cursor-pointer transition-colors duration-200 group">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="xl:size-6 size-4 transition-transform group-hover:scale-110">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5A3.375 3.375 0 0 0 6.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0 0 15 2.25h-1.5a2.251 2.251 0 0 0-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 0 0-9-9Z" />
+                </svg>
+                <span class="border-b border-transparent group-hover:border-[#50C2FF] transition-all duration-200 link-text">
+                    Копіювати посилання
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="stream_links" class="xl:mt-40 mt-20 pt-8" style="background: radial-gradient(ellipse at -100% 60%, rgba(80, 185, 255, 1) 20%, transparent 60%)">
+    <div class="container mx-auto">
+        <div class="text-white px-5 xl:px-60 ">
+            <p class="xl:text-5xl md:text-4xl text-2xl text-center xl:text-start font-medium">Онлайн-трансляції (Zoom)</p>
+            <div class="flex flex-col gap-8 pt-16">
+                <p class="xl:text-4xl text-base text-[#50C2FF]">27 травня 2026 р. (1-й день)</p>
+                <div class="flex flex-col gap-6">
+                    <div class="flex xl:flex-row flex-col w-full gap-2 xl:items-start">
+                        <div class="flex flex-col min-w-[150px]">
+                            <span class="text-white xl:text-2xl text-xl text-nowrap font-medium">15:00 – 16:30</span>
+                        </div>
+                        <div class="flex flex-col gap-3 w-full">
+                            <span class="text-[#50C2FF] xl:text-xl text-base font-light">Відкриття конференції. Підписання меморандуму про співпрацю між ТНТУ та ДУІКТ</span>
+                            <div>
+                                <span class="inline-flex items-center gap-2 px-4 py-2 border border-gray-500 text-gray-400 rounded-md text-sm font-medium opacity-50 cursor-not-allowed select-none">
+                                    Трансляція очної частини (ауд. 79) (Завершено)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr class="xl:mr-0 border-t border-white border-opacity-30">
+
+                <p class="xl:text-4xl text-base text-[#50C2FF]">28 травня 2026 р. (2-й день)</p>
+                <div class="flex flex-col gap-8">
+                    <div class="flex xl:flex-row flex-col w-full gap-2 xl:items-start">
+                        <div class="flex flex-col min-w-[150px]">
+                            <span class="text-white xl:text-2xl text-xl text-nowrap font-medium">10:00 – 12:00</span>
+                        </div>
+                        <div class="flex flex-col gap-3 w-full">
+                            <span class="text-[#50C2FF] xl:text-xl text-base font-light">Пленарне засідання</span>
+                            <div>
+                                <span class="inline-flex items-center gap-2 px-4 py-2 border border-gray-500 text-gray-400 rounded-md text-sm font-medium opacity-50 cursor-not-allowed select-none">
+                                    Трансляція очної частини (ауд. 79) (Завершено)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex xl:flex-row flex-col w-full gap-2 xl:items-start">
+                        <div class="flex flex-col min-w-[150px]">
+                            <span class="text-white xl:text-2xl text-xl text-nowrap font-medium">12:30 – 14:00</span>
+                        </div>
+                        <div class="flex flex-col gap-3 w-full">
+                            <span class="text-[#50C2FF] xl:text-xl text-base font-light">Секційні засідання. Частина 1</span>
+                            <div class="flex flex-wrap gap-3">
+                                <span class="inline-flex items-center gap-2 px-4 py-2 border border-gray-500 text-gray-400 rounded-md text-sm font-medium opacity-50 cursor-not-allowed select-none">
+                                    Трансляція очної частини (ауд. 79) (Завершено)
+                                </span>
+                                <span class="inline-flex items-center gap-2 px-4 py-2 border border-gray-500 text-gray-400 rounded-md text-sm font-medium opacity-50 cursor-not-allowed select-none">
+                                    Конференція засідання дистанційної форми участі (Завершено)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex xl:flex-row flex-col w-full gap-2 xl:items-start">
+                        <div class="flex flex-col min-w-[150px]">
+                            <span class="text-white xl:text-2xl text-xl text-nowrap font-medium">15:00 – 17:00</span>
+                        </div>
+                        <div class="flex flex-col gap-3 w-full">
+                            <span class="text-[#50C2FF] xl:text-xl text-base font-light">Секційні засідання. Частина 2</span>
+                            <div class="flex flex-wrap gap-3">
+                                <span class="inline-flex items-center gap-2 px-4 py-2 border border-gray-500 text-gray-400 rounded-md text-sm font-medium opacity-50 cursor-not-allowed select-none">
+                                    Трансляція очної частини (ауд. 79) (Завершено)
+                                </span>
+                                <span class="inline-flex items-center gap-2 px-4 py-2 border border-gray-500 text-gray-400 rounded-md text-sm font-medium opacity-50 cursor-not-allowed select-none">
+                                    Конференція засідання дистанційної форми участі (Завершено)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr class="xl:mr-0 border-t border-white border-opacity-30">
+
+                <ul class="list-disc pl-5 space-y-1 text-slate-300">
+                    <li>Якщо ви плануєте виступати з доповіддю <strong>онлайн</strong> або долучитися до обговорення на онлайн-засіданні — переходьте за посиланням <span>«Конференція засідання дистанційної форми участі»</span>.</li>
+                    <li>Якщо ви бажаєте лише переглядати виступи учасників, які перебувають очно в залі конференції (ауд. 79) — обирайте <span>«Трансляція очної частини»</span>.</li>
+                    <li>Просимо вказувати свої справжні ім'я та прізвище під час підключення до платформи Zoom.</li>
+                    <li>Будь ласка, тримайте свої мікрофони вимкненими і вмикайте їх лише на час власної доповіді або для запитань спікерам.</li>
+                </ul>
+                
+                <hr class="xl:mr-0 border-t border-white border-opacity-30">
+            </div>
+        </div>
+    </div>
+</section>
 
     <section id="conf_org_team" class="xl:mt-40 mt-20">
         <div class="container mx-auto mt-10 xl:mt-40">
@@ -578,7 +738,7 @@
                     <nav id="menu" class="flex lg:gap-10  gap-1 text-white pr-10 lg:pr-0 xl:text-xl lg:text-sm text-xs lg:justify-end">
                         <a href="#event-themes" class="text-white">Теми конференції</a>
                         <a href="#control" class="text-white">Контрольні дати</a>
-                        <a href="#publication-terms" class="text-white">Умови участі</a>
+                        <a href="#conference-abstracts" class="text-white">Матеріали конференції</a>
                         <a href="#program" class="text-white">Програма</a>
                         <a href="#conf_org_team" class="text-white">Оргкомітет</a>
                     </nav>
@@ -599,7 +759,6 @@
         <div class="text-center text-white text-base  xl:text-xl tracking-tight font-light">
             <p>Контакти:</p>
             <a href="mailto:itsec.bit@gmail.com" class="text-white" target="_blank"><p>itsec.bit@gmail.com</p></a>
-            <p>+380 00 000 00 00</p>
         </div>
         <div class="text-center pt-4 text-white text-base  xl:text-xl tracking-tight font-light xl:pb-20 pb-5">
             <p>Партнери конференції</p>
@@ -628,6 +787,22 @@
             menu.classList.add("translate-x-full");
         }
     });
+
+    function copyConferenceLink(element) {
+    const link = element.getAttribute('data-link');
+    const textSpan = element.querySelector('.link-text');
+    
+    navigator.clipboard.writeText(link).then(() => {
+        const originalText = textSpan.innerText;
+        textSpan.innerText = 'Скопійовано!';
+        
+        setTimeout(() => {
+            textSpan.innerText = originalText;
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy: ', err);
+    });
+}
 
 </script>
 
