@@ -64,7 +64,7 @@
                     <nav class="hidden  md:flex xl:gap-4 2xl:gap-10  md:gap-2 text-white  xl:text-base lg:text-sm md:text-xs  xl:justify-end">
                         <a href="#control" class="text-white">Контрольні дати</a>
                         <a href="#event-themes" class="text-white">Теми конференції</a>
-                        <a href="#publication-terms" class="text-white">Умови участі</a>
+                        <a href="#conference-abstracts" class="text-white">Матеріали конференції</a>
                         <a href="#program" class="text-white">Програма</a>
                         <a href="#conf_org_team" class="text-white">Оргкомітет</a>
                     </nav>
@@ -72,7 +72,7 @@
                     <nav id="menu" class="bg-black bg-opacity-100 text-white w-1/2 fixed top-2 right-0 flex flex-col gap-6 py-5 pl-4 rounded-l-3xl transform translate-x-full transition-transform duration-300 ease-in-out xl:hidden">
                         <a href="#control" class="text-white" onclick="toggleBurger()">Контрольні дати</a>
                         <a href="#event-themes" class="text-white" onclick="toggleBurger()">Теми конференції</a>
-                        <a href="#publication-terms" class="text-white" onclick="toggleBurger()">Умови участі</a>
+                        <a href="#conference-abstracts" class="text-white" onclick="toggleBurger()">Матеріали конференції</a>
                         <a href="#program" class="text-white" onclick="toggleBurger()">Програма</a>
                         <a href="#conf_org_team" class="text-white" onclick="toggleBurger()">Оргкомітет</a>
                     </nav>
@@ -89,9 +89,9 @@
                             <h2 class="xl:text-4xl">науково-технічна конференція</h2>
                             <h2 class="xl:text-4xl">"Безпека інформаційних технологій"</h2>
                             <h2 class="xl:text-4xl">27-29 травня 2026 р.</h2>
-                            <a href="#control">
-                                <button class="rounded-full text-black bg-[#50C2FF]  px-3 xl:px-9  py-2 xl:py-4 mt-10 xl:text-xl text-xs cursor-pointer">
-                                    Подати заявку на участь
+                            <a>
+                                <button class="bg-gray-600 border border-gray-500 rounded-full text-black bg-[#50C2FF]  px-3 xl:px-9  py-2 xl:py-4 mt-10 xl:text-xl text-xs cursor-pointer cursor-not-allowed select-none pointer-events-none">
+                                    Прийом заявок завершено
                                 </button>
                             </a>
                         </div>
@@ -438,23 +438,28 @@
 
 <section id="conference-abstracts" class="xl:mt-40 mt-20 pt-8 bg-black">
     <div class="container mx-auto">
-        <div class="text-white px-5 xl:px-60 ">
+        <div class="text-white px-5 xl:px-60">
             <p class="xl:text-5xl md:text-4xl text-2xl text-center xl:text-start font-medium">
                 Матеріали ХV Міжнародної науково-технічної конференції
             </p>
         </div>
         
-        <div class="xl:mt-20 mt-10 flex flex-col items-center gap-4 text-center">
-            <button class="rounded-full text-gray-400 bg-gray-800 border border-gray-700 xl:px-9 xl:py-4 py-2 px-6 xl:w-96 text-xs xl:text-2xl opacity-60 cursor-not-allowed select-none pointer-events-none transition-all">
+        <div class="xl:mt-20 mt-10 flex flex-col items-center gap-6 text-center">
+            <a href="https://drive.google.com/file/d/1Z_ufhNPv6XzsPqkaPoBoz9hk1lDFoFcP/view?usp=sharing" target="_blank" class="inline-block rounded-full font-medium text-black bg-[#50C2FF] py-3 px-6 xl:px-9 xl:py-4 xl:w-96 text-sm xl:text-2xl cursor-pointer shadow-md transform transition-all duration-300 ease-in-out hover:bg-[#3eb3f0] hover:scale-105 hover:shadow-[0_0_25px_rgba(80,194,255,0.5)]">
                 <div class="flex gap-2 items-center justify-center">
-                    <img src="cloud.png" alt="Save" class="xl:size-10 md:size-8 size-6 opacity-40 grayscale">
+                    <img src="cloud.png" alt="Save" class="xl:size-10 md:size-8 size-6">
                     <span>Збірник конференції</span>    
                 </div>
-            </button>
-            
-            <p class="text-[#50C2FF] text-sm xl:text-xl font-light italic mt-2">
-                Збірник тез буде опубліковано до 30 червня 2026 р.
-            </p>
+            </a>
+
+            <a href="javascript:void(0)" onclick="copyConferenceLink(this)" data-link="https://itsec.tntu.edu.ua/#conference-abstracts" class="inline-flex gap-2 items-center text-[#50C2FF] text-sm xl:text-xl font-medium cursor-pointer transition-colors duration-200 group">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="xl:size-6 size-4 transition-transform group-hover:scale-110">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 7.5V6.108c0-1.135.845-2.098 1.976-2.192.373-.03.748-.057 1.123-.08M15.75 18H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08M15.75 18.75v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5A3.375 3.375 0 0 0 6.375 7.5H5.25m11.9-3.664A2.251 2.251 0 0 0 15 2.25h-1.5a2.251 2.251 0 0 0-2.15 1.586m5.8 0c.065.21.1.433.1.664v.75h-6V4.5c0-.231.035-.454.1-.664M6.75 7.5H4.875c-.621 0-1.125.504-1.125 1.125v12c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V16.5a9 9 0 0 0-9-9Z" />
+                </svg>
+                <span class="border-b border-transparent group-hover:border-[#50C2FF] transition-all duration-200 link-text">
+                    Копіювати посилання
+                </span>
+            </a>
         </div>
     </div>
 </section>
@@ -733,7 +738,7 @@
                     <nav id="menu" class="flex lg:gap-10  gap-1 text-white pr-10 lg:pr-0 xl:text-xl lg:text-sm text-xs lg:justify-end">
                         <a href="#event-themes" class="text-white">Теми конференції</a>
                         <a href="#control" class="text-white">Контрольні дати</a>
-                        <a href="#publication-terms" class="text-white">Умови участі</a>
+                        <a href="#conference-abstracts" class="text-white">Матеріали конференції</a>
                         <a href="#program" class="text-white">Програма</a>
                         <a href="#conf_org_team" class="text-white">Оргкомітет</a>
                     </nav>
@@ -754,7 +759,6 @@
         <div class="text-center text-white text-base  xl:text-xl tracking-tight font-light">
             <p>Контакти:</p>
             <a href="mailto:itsec.bit@gmail.com" class="text-white" target="_blank"><p>itsec.bit@gmail.com</p></a>
-            <p>+380 99 309 15 00 (Деркач Марина), +380 96 303 83 28 (Загородна Наталія)</p>
         </div>
         <div class="text-center pt-4 text-white text-base  xl:text-xl tracking-tight font-light xl:pb-20 pb-5">
             <p>Партнери конференції</p>
@@ -783,6 +787,22 @@
             menu.classList.add("translate-x-full");
         }
     });
+
+    function copyConferenceLink(element) {
+    const link = element.getAttribute('data-link');
+    const textSpan = element.querySelector('.link-text');
+    
+    navigator.clipboard.writeText(link).then(() => {
+        const originalText = textSpan.innerText;
+        textSpan.innerText = 'Скопійовано!';
+        
+        setTimeout(() => {
+            textSpan.innerText = originalText;
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy: ', err);
+    });
+}
 
 </script>
 
